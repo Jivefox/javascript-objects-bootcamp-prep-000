@@ -4,7 +4,7 @@ function updatePlaylist(poopy, poop, poopie) {
  poopy[poop] = poopie;
   return playlist;
 }
-function removeFromPlaylist(playlist, key) {
+function removeFromPlaylist(playlist, artistName) {
   delete playlist.key;
   return playlist;
 }
