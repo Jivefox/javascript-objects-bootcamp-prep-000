@@ -5,6 +5,6 @@ function updatePlaylist(poopy, poop, poopie) {
   return playlist;
 }
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.key;
+  delete playlist.artistName;
   return playlist;
 }
